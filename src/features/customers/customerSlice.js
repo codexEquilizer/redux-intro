@@ -19,7 +19,7 @@ export default function customerReducer(state = initialStateCustomer, action) {
       return { ...state, fullName: action.payload.fullName };
 
     default:
-      return initialStateCustomer;
+      return { ...state };
   }
 }
 

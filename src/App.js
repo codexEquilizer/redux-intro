@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <h1>🏦 The React-Redux Bank ⚛️</h1>
-      {/* {!fullName ? (
+      {!fullName ? (
         <CreateCustomer />
       ) : (
         <>
@@ -17,15 +17,7 @@ function App() {
           <AccountOperations />
           <BalanceDisplay />
         </>
-      )} */}
-
-      <CreateCustomer />
-
-      <>
-        <Customer />
-        <AccountOperations />
-        <BalanceDisplay />
-      </>
+      )}
     </div>
   );
 }
